@@ -1,7 +1,6 @@
 def invertir_cadena(cadena):
     if len(cadena) == 0:
         return ""
-
     return cadena[-1] + invertir_cadena(cadena[:-1])
 
 def suma_n(numero):
@@ -13,6 +12,14 @@ def cuenta(numero):
     if numero == 0:
         return 0
     return f"{numero} {cuenta(numero - 1)}"
+
+def suma_digitos(numero):
+    if len(numero) == 0:
+        return 0
+    temp = int(numero[0])
+    return temp + suma_digitos(numero[1:])
+
+
 
 while True:
     print("\n==== MENU DE RECURSIVIDAD ====")
@@ -36,3 +43,9 @@ while True:
     elif opcion == "3":
         num = int(input("Ingrese un numero: "))
         print(f"Resultado: {cuenta(num)}")
+
+    elif opcion == "4":
+        num = input("Ingrese un numero: ")
+        print(f"Resultado: {suma_digitos(num)}")
+
+    elif opcion == "5":
