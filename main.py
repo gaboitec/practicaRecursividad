@@ -20,7 +20,8 @@ while True:
     print("2. Calcular la suma de los primeros N numeros naturales")
     print("3. Cuenta regresiva desde N hasta 1")
     print("4. Sumar los digitos de un numero")
-    print("5. Salir")
+    print("5. Contar los digitos de un numero")
+    print("6. Salir")
 
     opcion = input("Ingrese una opcion: ")
 
