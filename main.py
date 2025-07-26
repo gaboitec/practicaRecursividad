@@ -19,6 +19,11 @@ def suma_digitos(numero):
     temp = int(numero[0])
     return temp + suma_digitos(numero[1:])
 
+def contar_digitos(numero):
+    temp = str(numero)
+    if len(temp) == 0:
+        return 0
+    return 1 + contar_digitos(temp[1:])
 
 
 while True:
@@ -45,7 +50,16 @@ while True:
         print(f"Resultado: {cuenta(num)}")
 
     elif opcion == "4":
-        num = input("Ingrese un numero: ")
-        print(f"Resultado: {suma_digitos(num)}")
+        num = int(input("Ingrese un numero: "))
+        num_str = str(num)
+        print(f"Resultado: {suma_digitos(num_str)}")
 
     elif opcion == "5":
+        num = int(input("Ingrese un numero: "))
+        print(f"Resultado: {contar_digitos(num)}")
+
+    elif opcion == "6":
+        break
+
+    else:
+        print("Opcion no valida")

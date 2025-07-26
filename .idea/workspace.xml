@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1235fac3-1945-4cba-94d9-f41d82131d7d" name="Changes" comment="menu principal + invertir cadena + calcular la suma de N numeros + cuenta regresiva">
-      <change afterPath="$PROJECT_DIR$/.idea/PracticaRecursividad27-5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="1235fac3-1945-4cba-94d9-f41d82131d7d" name="Changes" comment="sumar digitos de numero" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "gaboitec"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/gaboitec/practicaRecursividad.git",
+    "accountId": "d9e0cbbf-d453-472e-bddc-28e5f901a6d4"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -69,8 +73,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1753498057555</updated>
-      <workItem from="1753498058642" duration="941000" />
+      <workItem from="1753498058642" duration="1277000" />
     </task>
+    <task id="LOCAL-00001" summary="menu principal + invertir cadena + calcular la suma de N numeros + cuenta regresiva">
+      <option name="closed" value="true" />
+      <created>1753498995376</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753498995376</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cuenta regresiva">
+      <option name="closed" value="true" />
+      <created>1753499059491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753499059491</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sumar digitos de numero">
+      <option name="closed" value="true" />
+      <created>1753499322386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753499322386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,9 +118,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="menu principal + invertir cadena + calcular la suma de N numeros + cuenta regresiva" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu principal + invertir cadena + calcular la suma de N numeros + cuenta regresiva" />
+    <MESSAGE value="cuenta regresiva" />
+    <MESSAGE value="sumar digitos de numero" />
+    <option name="LAST_COMMIT_MESSAGE" value="sumar digitos de numero" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PracticaRecursividad27_5$main.coverage" NAME="main Coverage Results" MODIFIED="1753498780973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PracticaRecursividad27_5$main.coverage" NAME="main Coverage Results" MODIFIED="1753499257231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
